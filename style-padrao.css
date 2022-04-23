@@ -1,0 +1,80 @@
+/* Corpo da página */
+body 
+
+  
+
+/* ------------------ */ 
+
+
+/* Configurando Imagem */
+#banner {
+
+  width: 100%;
+}
+
+.principal {
+
+  background: #CCCCCC; 
+  padding: 30px;
+}
+
+.titulo-principal {
+  padding-left: 20px;
+}
+
+/* ------------------ */ 
+
+/* Título */
+.titulo-centralizado {
+  
+  text-align: center;
+} 
+
+/* ------------------ */ 
+
+/* Paragráfo */
+p {
+    text-align: center;
+    
+}  
+/* ------------------ */
+/* Criou uma id = missao, para especificar um paragráfo(id utiliza (#)) */
+#missao {
+
+  font-size: 20px;
+}
+/* ------------------ */ 
+
+/* A tag <strong> está dentro da tag <em>, utilizamos da seguinte forma para especificar */
+em strong {
+  color: red;
+} 
+
+/* ------------------ */ 
+
+/* Utilizando classes. (classes utiliza (.)) */ 
+
+.itens { 
+
+  font-style: italic;
+} 
+
+.beneficios { 
+  
+  background: #FFFFFF; 
+  padding: 20px;
+} 
+
+
+
+ul {
+  display: inline-block;
+  vertical-align: top; 
+  width: 20%;
+  margin-right: 15%;
+
+}
+.imgbeneficios {
+
+  width: 50%;
+}
